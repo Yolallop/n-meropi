@@ -7,4 +7,4 @@ ejecutar:compilar
 limpiar:
 	rm -rf bin
 jar:compilar
-	jar cvfm ap-personas.jar manifest.txt -C bin .
+	jar cvfm ap-personas.jar -C bin .
